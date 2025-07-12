@@ -1,0 +1,42 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="Chapter13" />
+          <option value="Chapter13" />
+          <option value="Chapter13" />
+          <option value="Chapter13" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="io.springfox:springfox-swagger-ui:2.6.1" />
+          <option value="com.google.guava:guava:18.0" />
+          <option value="com.fasterxml.jackson.core:jackson-core:2.14.2" />
+          <option value="org.springframework.boot:spring-boot-autoconfigure:3.0.5" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="groupsTestNG" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="groups">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="loginTrue" />
+            <item index="1" class="java.lang.String" itemvalue="loginFalse" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

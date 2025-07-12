@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="NoSqlConfiguration">
+    <option name="serverConfigurations">
+      <list>
+        <ServerConfiguration>
+          <option name="authenticationSettings">
+            <AuthenticationSettings>
+              <option name="password" value="Sen123456" />
+            </AuthenticationSettings>
+          </option>
+          <option name="connectOnIdeStartup" value="true" />
+          <option name="databaseVendor" value="DatabaseVendor{name='RedisDB'}" />
+          <option name="label" value="Sen_mysql" />
+          <option name="serverUrl" value="localhost:6379" />
+          <option name="shellWorkingDir" value="C:\Users\87389\.m2\repository\mysql\mysql-connector-java\8.2.0" />
+          <option name="userDatabase" value="root" />
+        </ServerConfiguration>
+      </list>
+    </option>
+    <option name="shellPathByDatabaseVendor">
+      <map>
+        <entry key="DatabaseVendor{name='RedisDB'}" value="C:\Users\87389\.m2\repository\mysql\mysql-connector-java\8.2.0\mysql-connector-java-8.2.0.jar.lastUpdated" />
+        <entry key="DatabaseVendor{name='MongoDB'}" value="C:\Users\87389\.m2\repository\mysql\mysql-connector-java\8.2.0\mysql-connector-java-8.2.0.jar.lastUpdated" />
+      </map>
+    </option>
+  </component>
+</project>
