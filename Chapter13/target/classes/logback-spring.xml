@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="30 seconds">
+    <!-- 引入Spring Boot默认配置（可选） -->
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+
+    <!-- 定义变量 -->
+    <property name="LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{80} - %msg%n"/>
+    <property name="SIMPLE_PATTERN" value="%msg%n"/> <!-- 用于简化日志（如爬虫日志） -->
+    <property name="LOG_PATH" value="${LOG_PATH:-${LOG_TEMP:-${java.io.tmpdir:-/tmp}}}"/>
+    <property name="LOG_FILE" value="${LOG_FILE}"/> <!-- 默认日志文件名 -->
+    <property name="MAX_HISTORY" value="30"/> <!-- 日志保留天数 -->
+    <property name="MAX_FILE_SIZE" value="100MB"/> <!-- 单文件最大大小 -->
+
+    <!-- 控制台输出 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder charset="UTF-8">
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 主日志文件（按大小和时间滚动） -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_PATH}/${LOG_FILE}.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_PATH}/${LOG_FILE}.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>${MAX_FILE_SIZE}</maxFileSize>
+            <maxHistory>${MAX_HISTORY}</maxHistory>
+            <totalSizeCap>10GB</totalSizeCap> <!-- 总日志大小限制 -->
+        </rollingPolicy>
+        <encoder charset="UTF-8">
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 爬虫日志（专用文件） -->
+    <appender name="CRAWLER_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_PATH}/event.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_PATH}/event.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>${MAX_HISTORY}</maxHistory>
+        </rollingPolicy>
+        <encoder charset="UTF-8">
+            <pattern>${SIMPLE_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 爬虫日志的独立Logger -->
+    <logger name="com.business.intelligence.util.CrawlerLogger" level="INFO" additivity="false">
+        <appender-ref ref="CRAWLER_LOG"/>
+    </logger>
+
+    <!-- 根日志配置 -->
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/> <!-- 开发环境保留控制台输出 -->
+        <appender-ref ref="FILE"/>   <!-- 生产环境记录到文件 -->
+    </root>
+
+    <!-- 环境差异化配置（可选） -->
+    <springProfile name="dev">
+        <logger name="com.business.intelligence" level="DEBUG"/>
+    </springProfile>
+    <springProfile name="prod">
+        <root level="INFO">
+            <appender-ref ref="FILE"/> <!-- 生产环境关闭控制台输出 -->
+        </root>
+    </springProfile>
+</configuration>

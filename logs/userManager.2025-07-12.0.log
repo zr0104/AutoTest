@@ -1,0 +1,338 @@
+2025-07-10 11:22:33.110 [main] INFO  com.course.Application - Starting Application using Java 17.0.9 with PID 5036 (C:\Users\87389\IdeaProjects\AutoTest\Chapter13\target\classes started by 87389 in C:\Users\87389\IdeaProjects\AutoTest)
+2025-07-10 11:22:33.117 [main] INFO  com.course.Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-10 11:22:34.197 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course.mapper]' package. Please check your configuration.
+2025-07-10 11:22:34.721 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-07-10 11:22:34.735 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-10 11:22:34.735 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2025-07-10 11:22:34.857 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-10 11:22:34.857 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1601 ms
+2025-07-10 11:22:35.797 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-07-10 11:22:35.810 [main] INFO  com.course.Application - Started Application in 3.489 seconds (process running for 4.025)
+2025-07-10 11:23:14.921 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-10 11:23:14.921 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-10 11:23:14.923 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-10 11:23:15.039 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-10 11:23:15.428 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@535a7417
+2025-07-10 11:23:15.431 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-10 11:23:15.495 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 11:23:15.497 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 11:23:15.658 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 11:23:15.658 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 11:23:15.762 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:23:15.763 [http-nio-8888-exec-3] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 11:23:17.816 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:23:17.846 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 11:23:19.931 [http-nio-8888-exec-5] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:23:19.977 [http-nio-8888-exec-6] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:23:58.434 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-10 11:23:58.443 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-10 11:24:03.840 [main] INFO  com.course.Application - Starting Application using Java 17.0.9 with PID 19936 (C:\Users\87389\IdeaProjects\AutoTest\Chapter13\target\classes started by 87389 in C:\Users\87389\IdeaProjects\AutoTest)
+2025-07-10 11:24:03.843 [main] INFO  com.course.Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-10 11:24:04.692 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course.mapper]' package. Please check your configuration.
+2025-07-10 11:24:05.170 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-07-10 11:24:05.183 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-10 11:24:05.183 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2025-07-10 11:24:05.293 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-10 11:24:05.294 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1384 ms
+2025-07-10 11:24:06.183 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-07-10 11:24:06.196 [main] INFO  com.course.Application - Started Application in 3.042 seconds (process running for 3.533)
+2025-07-10 11:24:25.112 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-10 11:24:25.112 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-10 11:24:25.114 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-10 11:24:25.222 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-10 11:24:25.543 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28f5bc66
+2025-07-10 11:24:25.545 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-10 11:24:25.590 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 11:24:25.591 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 11:24:25.694 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 11:24:25.694 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 11:24:25.785 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:24:25.799 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - 用户添加成功，用户名: login, 插入行数: null
+2025-07-10 11:24:27.851 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:24:27.871 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 11:24:29.940 [http-nio-8888-exec-5] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:24:29.982 [http-nio-8888-exec-6] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:26:15.466 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 11:26:15.466 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 11:26:15.532 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 11:26:15.532 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 11:26:15.593 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:26:15.600 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - 用户添加成功，用户名: login, 插入行数: null
+2025-07-10 11:26:17.681 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:26:17.683 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 11:26:19.741 [http-nio-8888-exec-1] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:26:19.781 [http-nio-8888-exec-2] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:26:36.984 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-10 11:26:36.998 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-10 11:26:41.376 [main] INFO  com.course.Application - Starting Application using Java 17.0.9 with PID 13120 (C:\Users\87389\IdeaProjects\AutoTest\Chapter13\target\classes started by 87389 in C:\Users\87389\IdeaProjects\AutoTest)
+2025-07-10 11:26:41.379 [main] INFO  com.course.Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-10 11:26:42.240 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course.mapper]' package. Please check your configuration.
+2025-07-10 11:26:42.767 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-07-10 11:26:42.779 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-10 11:26:42.780 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2025-07-10 11:26:42.893 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-10 11:26:42.893 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1449 ms
+2025-07-10 11:26:43.770 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-07-10 11:26:43.782 [main] INFO  com.course.Application - Started Application in 3.065 seconds (process running for 3.523)
+2025-07-10 11:27:00.677 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-10 11:27:00.677 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-10 11:27:00.678 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-10 11:27:00.786 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-10 11:27:01.097 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@673f3cd
+2025-07-10 11:27:01.099 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-10 11:27:01.149 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 11:27:01.150 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 11:27:01.244 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 11:27:01.244 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 11:27:01.303 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:27:01.304 [http-nio-8888-exec-3] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 11:27:03.370 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:27:03.393 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 11:27:05.466 [http-nio-8888-exec-5] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:27:05.507 [http-nio-8888-exec-6] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:28:04.272 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 11:28:04.272 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 11:28:04.337 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 11:28:04.337 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 11:28:04.382 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:28:04.382 [http-nio-8888-exec-9] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 11:28:06.437 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:28:06.439 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 11:28:08.502 [http-nio-8888-exec-1] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:28:08.538 [http-nio-8888-exec-2] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:28:39.717 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 11:28:39.717 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 11:28:39.774 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 11:28:39.774 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 11:28:39.819 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:28:39.820 [http-nio-8888-exec-5] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 11:28:41.883 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:28:41.886 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 11:28:43.951 [http-nio-8888-exec-7] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:28:43.981 [http-nio-8888-exec-8] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:28:48.947 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-10 11:28:48.955 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-10 11:28:51.187 [main] INFO  com.course.Application - Starting Application using Java 17.0.9 with PID 16772 (C:\Users\87389\IdeaProjects\AutoTest\Chapter13\target\classes started by 87389 in C:\Users\87389\IdeaProjects\AutoTest)
+2025-07-10 11:28:51.189 [main] INFO  com.course.Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-10 11:28:52.035 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course.mapper]' package. Please check your configuration.
+2025-07-10 11:28:52.509 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-07-10 11:28:52.520 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-10 11:28:52.521 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2025-07-10 11:28:52.637 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-10 11:28:52.638 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1383 ms
+2025-07-10 11:28:53.504 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-07-10 11:28:53.517 [main] INFO  com.course.Application - Started Application in 3.001 seconds (process running for 3.486)
+2025-07-10 11:30:15.959 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-10 11:30:15.960 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-10 11:30:15.961 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-10 11:30:16.072 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-10 11:30:16.374 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@673f3cd
+2025-07-10 11:30:16.375 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-10 11:30:16.425 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 11:30:16.428 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 11:30:16.542 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 11:30:16.543 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 11:30:16.636 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:30:16.636 [http-nio-8888-exec-3] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 11:30:18.686 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:30:18.708 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 11:30:20.774 [http-nio-8888-exec-5] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:30:20.821 [http-nio-8888-exec-6] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:36:13.015 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 11:36:13.016 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 11:36:13.082 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 11:36:13.082 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 11:36:13.129 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:36:13.129 [http-nio-8888-exec-9] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 11:36:15.179 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:36:15.181 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 11:36:17.233 [http-nio-8888-exec-1] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:36:17.262 [http-nio-8888-exec-2] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:36:54.381 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 11:36:54.381 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 11:36:54.454 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 11:36:54.454 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 11:36:54.530 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:36:54.531 [http-nio-8888-exec-5] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 11:36:56.583 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:36:56.586 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 11:36:58.665 [http-nio-8888-exec-7] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:36:58.699 [http-nio-8888-exec-8] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:37:38.818 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 11:37:38.818 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 11:37:38.888 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 11:37:38.888 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 11:37:38.951 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:37:38.952 [http-nio-8888-exec-1] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 11:37:41.008 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:37:41.012 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 11:37:43.066 [http-nio-8888-exec-3] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:37:43.095 [http-nio-8888-exec-4] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:37:54.430 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 11:37:54.430 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 11:37:54.495 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 11:37:54.496 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 11:37:54.558 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:37:54.559 [http-nio-8888-exec-7] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 11:40:52.467 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 11:40:52.468 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 11:40:52.539 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 11:40:52.539 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 11:40:52.584 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:40:52.585 [http-nio-8888-exec-1] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 11:40:55.863 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 11:40:55.863 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 11:40:55.932 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 11:40:55.932 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 11:40:55.995 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:40:55.995 [http-nio-8888-exec-5] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 11:43:46.682 [http-nio-8888-exec-10] INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 300 ms
+2025-07-10 11:45:52.955 [http-nio-8888-exec-3] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('s' (code 115)): was expecting comma to separate Object entries]
+2025-07-10 11:46:00.409 [http-nio-8888-exec-4] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name]
+2025-07-10 11:47:12.942 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 11:47:12.942 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 11:47:12.998 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 11:47:12.998 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 11:47:13.060 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:47:13.060 [http-nio-8888-exec-7] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 11:47:15.111 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:47:15.114 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 11:47:17.171 [http-nio-8888-exec-9] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:47:17.201 [http-nio-8888-exec-10] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:48:29.899 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 11:48:29.900 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 11:48:29.957 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 11:48:29.958 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 11:48:30.005 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:48:30.005 [http-nio-8888-exec-3] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 11:48:32.062 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 11:48:32.064 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 11:48:34.123 [http-nio-8888-exec-5] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 11:48:34.158 [http-nio-8888-exec-6] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 12:08:10.195 [http-nio-8888-exec-7] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name]
+2025-07-10 16:09:40.858 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h42m51s572ms662µs).
+2025-07-10 18:06:58.726 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - 用户更新成功，ID: 1, 影响行数: 1
+2025-07-10 18:10:51.593 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 18:10:51.593 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 18:10:51.659 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 18:10:51.659 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 18:10:51.719 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:10:51.719 [http-nio-8888-exec-3] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 18:10:53.786 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:10:53.790 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 18:10:55.857 [http-nio-8888-exec-5] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 18:10:55.892 [http-nio-8888-exec-6] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 18:13:25.647 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 18:13:25.648 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 18:13:25.711 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 18:13:25.712 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 18:13:25.773 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:13:25.774 [http-nio-8888-exec-9] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 18:13:27.825 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:13:27.827 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 18:13:29.908 [http-nio-8888-exec-1] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 18:13:29.944 [http-nio-8888-exec-2] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.course.controller.UserManager$ApiResponse> com.course.controller.UserManager.updateUserInfo(jakarta.servlet.http.HttpServletRequest,com.course.model.Users)]
+2025-07-10 18:20:16.858 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 18:20:16.858 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 18:20:16.926 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 18:20:16.927 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 18:20:16.974 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:20:16.974 [http-nio-8888-exec-5] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 18:20:19.029 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:20:19.031 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 18:20:21.089 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:20:21.092 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 用户更新成功，ID: 1, 影响行数: 1
+2025-07-10 18:20:21.138 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:20:21.140 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 用户更新成功，ID: 2, 影响行数: 1
+2025-07-10 18:29:50.486 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 18:29:50.487 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 18:29:50.547 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 18:29:50.547 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 18:29:50.592 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:29:50.592 [http-nio-8888-exec-2] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 18:29:52.654 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:29:52.656 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 18:29:54.717 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:29:54.719 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 用户更新成功，ID: 1, 影响行数: 1
+2025-07-10 18:29:54.766 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:29:54.768 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - 用户更新成功，ID: 2, 影响行数: 1
+2025-07-10 18:31:41.267 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 18:31:41.268 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 18:31:41.326 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 18:31:41.327 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 18:31:41.373 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:31:41.373 [http-nio-8888-exec-9] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 18:31:43.431 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:31:43.433 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 18:31:45.497 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:31:45.499 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户更新成功，ID: 1, 影响行数: 1
+2025-07-10 18:31:47.537 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:31:47.539 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 用户更新成功，ID: 2, 影响行数: 1
+2025-07-10 18:33:07.065 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 18:33:07.065 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 18:33:07.122 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 18:33:07.122 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 18:33:07.169 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:33:07.170 [http-nio-8888-exec-6] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 18:33:09.221 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:33:09.223 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 18:33:11.275 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:33:11.276 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 用户更新成功，ID: 1, 影响行数: 1
+2025-07-10 18:33:13.323 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:33:13.325 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - 用户更新成功，ID: 2, 影响行数: 1
+2025-07-10 18:36:22.728 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 18:36:22.728 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 18:36:22.790 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 18:36:22.790 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 18:36:22.852 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:36:22.853 [http-nio-8888-exec-3] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 18:36:24.917 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:36:24.919 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 18:36:26.987 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:36:26.990 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - 用户更新成功，ID: 1, 影响行数: 1
+2025-07-10 18:36:29.036 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:36:29.038 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - 用户更新成功，ID: 2, 影响行数: 1
+2025-07-10 18:38:35.791 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 18:38:35.791 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 18:38:35.853 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 18:38:35.853 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 18:38:35.899 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:38:35.899 [http-nio-8888-exec-10] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 18:38:37.964 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:38:37.966 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 18:38:40.020 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:38:40.023 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 用户更新成功，ID: 1, 影响行数: 1
+2025-07-10 18:38:42.075 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 18:38:42.077 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - 用户更新成功，ID: 2, 影响行数: 1
+2025-07-10 20:16:55.428 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-10 20:16:55.436 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-10 21:36:14.405 [main] INFO  com.course.Application - Starting Application using Java 17.0.9 with PID 18624 (C:\Users\87389\IdeaProjects\AutoTest\Chapter13\target\classes started by 87389 in C:\Users\87389\IdeaProjects\AutoTest)
+2025-07-10 21:36:14.408 [main] INFO  com.course.Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-10 21:36:15.501 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course.mapper]' package. Please check your configuration.
+2025-07-10 21:36:16.082 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-07-10 21:36:16.093 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-10 21:36:16.094 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2025-07-10 21:36:16.219 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-10 21:36:16.220 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1723 ms
+2025-07-10 21:36:17.118 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-07-10 21:36:17.131 [main] INFO  com.course.Application - Started Application in 3.598 seconds (process running for 4.27)
+2025-07-10 21:36:54.711 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-10 21:36:54.711 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-10 21:36:54.712 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-10 21:36:54.818 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-10 21:36:55.128 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@673f3cd
+2025-07-10 21:36:55.130 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-10 21:36:55.181 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=login
+2025-07-10 21:36:55.182 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 用户登录成功: username=login
+2025-07-10 21:36:55.282 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 用户登录验证结果: count=1, username=SenAuto001
+2025-07-10 21:36:55.283 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 用户登录成功: username=SenAuto001
+2025-07-10 21:36:55.359 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 21:36:55.359 [http-nio-8888-exec-3] WARN  com.course.controller.UserManager - 未授权的访问尝试，用户: login
+2025-07-10 21:36:57.428 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 21:36:57.449 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 获取用户的数量是：1
+2025-07-10 21:36:59.512 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 21:36:59.518 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - 用户更新成功，ID: 1, 影响行数: 1
+2025-07-10 21:37:01.570 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - cookies为空
+2025-07-10 21:37:01.573 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - 用户更新成功，ID: 2, 影响行数: 1
+2025-07-10 21:58:59.080 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-10 21:58:59.093 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
