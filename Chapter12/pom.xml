@@ -16,6 +16,13 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>aliyun</id>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </repository>
+    </repositories>
+
     <build>
         <plugins>
             <!-- Surefire Plugin 配置 -->
