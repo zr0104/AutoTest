@@ -32,6 +32,17 @@
         </repository>
     </repositories>
 
+<!--    <mirrors>-->
+<!--        &lt;!&ndash; 终极方案：覆盖所有仓库（慎用！） &ndash;&gt;-->
+<!--        <mirror>-->
+<!--            <id>aliyun-all</id>-->
+<!--            <name>阿里云全部仓库</name>-->
+<!--            <url>https://maven.aliyun.com/repository/public</url>-->
+<!--            <mirrorOf>*</mirrorOf>  &lt;!&ndash; 匹配所有仓库 &ndash;&gt;-->
+<!--        </mirror>-->
+<!--    </mirrors>-->
+
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
