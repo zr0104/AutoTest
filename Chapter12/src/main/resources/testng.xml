@@ -2,6 +2,7 @@
 
 <suite name="用户管理系统测试套件">
     <test name="用户管理系统测试用例">
+        <parameter name="testng.output.encoding" value="UTF-8"/>
         <classes>
 
             <class name="com.course.cases.LoginTest">
